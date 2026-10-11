@@ -39,12 +39,11 @@ def enviar(mensaje: str) -> str:
     return "Google sigue saturado, prueba más tarde."
 
 
-print("Chatbot listo. Escribe 'salir' o despidete para terminar la conversación \n")
+print("Chatbot listo. Escribe 'salir' para terminar.\n")
 
 while True:
     texto = input("Tú: ").strip()
     if texto.lower() in ("salir", "exit", "quit"):
-        print(f"Bot: {enviar(texto)}\n")
         print("¡Hasta luego!")
         break
     if not texto:

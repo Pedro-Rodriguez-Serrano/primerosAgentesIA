@@ -1,5 +1,7 @@
 .env
 
+conversacion.json
+
 # Entorno virtual y caché de Python
 .venv/
 venv/
