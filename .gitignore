@@ -1,0 +1,13 @@
+.env
+
+# Entorno virtual y caché de Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Configuración de PyCharm
+.idea/
+
+# Resultados generados por el agente
+resumenes/
