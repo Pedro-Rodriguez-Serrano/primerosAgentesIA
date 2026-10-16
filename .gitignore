@@ -1,6 +1,7 @@
 .env
 
 conversacion.json
+informe_usuario.json
 
 # Entorno virtual y caché de Python
 .venv/
